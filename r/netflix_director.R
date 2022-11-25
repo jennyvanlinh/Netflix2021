@@ -1,4 +1,3 @@
-# remove setwd for privacy reason
 library(readr)
 library(dplyr)
 library(tidyr)
