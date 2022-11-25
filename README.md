@@ -34,6 +34,7 @@ This visualisation will give you a glimpse of Netflix's TV Shows and Movies info
 - Form a logical relationship between Clean_Netflix_Data.csv and Clean_Netflix_Director.csv
 
 ## Step 5: Clean cast data for bar chart
+
 - Extract title, type and cast columns from Clean_Netflix_Data.csv to create actor file -> Netflix_Actor.csv
 - Used R to split each cast member based on comma and insert row for each splitted member -> netflix_actor.R
 - Saved new CSV file -> Clean_Netflix_Actor.csv
@@ -41,5 +42,6 @@ This visualisation will give you a glimpse of Netflix's TV Shows and Movies info
 - Form a logical relationship between Clean_Netflix_Data.csv and Clean_Netflix_Actor.csv
 
 ## Step 6: Create visualisation
+- Create visualisation on Tableau
 - The visualisation can be accessed from [here](https://public.tableau.com/app/profile/jennyvanlinh/viz/Netflix_16693436228000/Dashboard1)
 
