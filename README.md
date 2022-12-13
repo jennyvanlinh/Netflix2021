@@ -10,7 +10,7 @@ Step 1: Clean the data
 - Saved new CSV file -> Clean_Netflix_Data.csv
 
 Step 2: Manipulate data to create map, graphs and charts
-- Used Excel and R to manipulate data accordingly 
+- Used Excel to filter data from Clean_Netflix_Data.csv and R to manipulate data accordingly 
   - Country --> Netflix_Country.csv
     - R --> netflix_country.R
     - Saved new CSV file --> Clean_Netflix_Country.csv
