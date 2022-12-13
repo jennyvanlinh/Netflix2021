@@ -9,38 +9,22 @@ Step 1: Clean the data
 - Cleaned netflix_titles using R -> netflix.R
 - Saved new CSV file -> Clean_Netflix_Data.csv
 
-**_Step 2-5 is just basically repetition_**
+Step 2: Manipulate data to create map, graphs and charts
+- Used Excel and R to manipulate data accordingly 
+  - Country --> Netflix_Country.csv
+    - R --> netflix_country.R
+    - Saved new CSV file --> Clean_Netflix_Country.csv
+  - Genre --> Netflix_Listed_In.csv
+    - R --> netflix_listed_in.R
+    - Saved new CSV file --> Clean_Netflix_Listed_In.csv
+  - Director --> Netflix_Director.csv
+    - R --> netflix_director.R
+    - Saved new CSV file --> Clean_Netflix_Director.csv
+  - Actor/Cast --> Netflix_Actor.csv
+    - R --> netflix_actor.R
+    - Saved new CSV file --> Clean_Netflix_Actor.csv
 
-Step 2: Clean country data for map
-- Added Clean_Netflix_Data.csv onto Tableau
-- Extract title, type and country columns from Clean_Netflix_Data.csv to create country file -> Netflix_Country.csv
-- Used R to split each country based on comma and insert row for each splitted country -> netflix_country.R
-- Saved new CSV file -> Clean_Netflix_Country.csv
-- Added Clean_Netflix_Country.csv onto Tableau
-- Form a logical relationship between Clean_Netflix_Data.csv and Clean_Netflix_Country.csv
-
-Step 3: Clean genre data for tree map
-- Extract title, type, listed_in, rating and duration columns from Clean_Netflix_Data.csv to create genre file -> Netflix_Listed_In.csv
-- Used R to split each genre based on comma and insert row for each splitted genre -> netflix_listed_in.R
-- Saved new CSV file -> Clean_Netflix_Listed_In.csv
-- Added Clean_Netflix_Listed_In.csv onto Tableau
-- Form a logical relationship between Clean_Netflix_Data.csv and Clean_Netflix_Listed_In.csv
-
-Step 4: Clean director data for bar chart
-- Extract title, type and director columns from Clean_Netflix_Data.csv to create director file -> Netflix_Director.csv
-- Used R to split each director name based on comma and insert row for each splitted director -> netflix_director.R
-- Saved new CSV file -> Clean_Netflix_Director.csv
-- Added Clean_Netflix_Director.csv onto Tableau
-- Form a logical relationship between Clean_Netflix_Data.csv and Clean_Netflix_Director.csv
-
-Step 5: Clean cast data for bar chart
-- Extract title, type and cast columns from Clean_Netflix_Data.csv to create actor file -> Netflix_Actor.csv
-- Used R to split each cast member based on comma and insert row for each splitted member -> netflix_actor.R
-- Saved new CSV file -> Clean_Netflix_Actor.csv
-- Added Clean_Netflix_Actor.csv onto Tableau
-- Form a logical relationship between Clean_Netflix_Data.csv and Clean_Netflix_Actor.csv
-
-Step 6: Create visualisation
-- Create visualisation on Tableau
+Step 3: Create visualisation
+- Create visualisation on Tableau, forming logic relationships between CSV files
 - The visualisation can be accessed from [here](https://public.tableau.com/app/profile/jennyvanlinh/viz/Netflix_16693436228000/Dashboard1)
 
